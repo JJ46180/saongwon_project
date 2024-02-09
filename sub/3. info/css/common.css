@@ -1,6 +1,6 @@
 @import url(header.css);
 @import url(sec1.css);
-@import url(ABOUT_tabmenu.css);
+@import url(NEWS_tabmenu.css);
 @import url(footer.css);
 
 body {
@@ -30,7 +30,18 @@ footer {
   bottom: 0;
 }
 
-mo {
+.wrap {
+  width: 100%;
+  position: relative;
+  z-index: 999;
+}
+
+header, section, footer {
+  width: 100%;
+}
+
+
+.mo {
   display: none;
 }
 
@@ -42,5 +53,5 @@ mo {
   .web {
       display: none;
   }
-
 }
+

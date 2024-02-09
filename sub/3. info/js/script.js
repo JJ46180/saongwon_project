@@ -2,23 +2,23 @@ $(document).ready(function () {
   
   
   $(".tab1").click(function () {
-    $(".introduce").show();
-    $(".greeting").hide();
-    $(".history").hide();
+    $(".notification").show();
+    $(".SNS_promotion").hide();
+    $(".press").hide();
   });
 
 
   $(".tab2").click(function () {
-    $(".greeting").show();
-    $(".introduce").hide();
-    $(".history").hide();
+    $(".SNS_promotion").show();
+    $(".notification").hide();
+    $(".press").hide();
   });
   
 
   $(".tab3").click(function () {
-    $(".history").show();
-    $(".introduce").hide();
-    $(".greeting").hide();
+    $(".press").show();
+    $(".notification").hide();
+    $(".SNS_promotion").hide();
   });
   
     
@@ -56,9 +56,11 @@ $(document).ready(function () {
             left: '-500px',
         })
     });
-
+  
 
 
 })
+
+
   //end
   
